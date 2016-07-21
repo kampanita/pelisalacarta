@@ -1,4 +1,4 @@
-<?<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="General">
         <setting id="player_type" type="enum" values="Auto|MPlayer|DVDPlayer" label="30000" default="2"/>
