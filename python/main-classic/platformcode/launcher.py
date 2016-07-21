@@ -351,7 +351,7 @@ def run():
              
 
         logger.info('pelisalacarta.launcher Comprobando de correo activado')
-        if config.get_setting('sendlog') == 'true':
+        if ((config.get_setting('sendlog') == 'true') and (config.get_setting('mailuser') <> 'usuario@gmail.com')):
            logger.info('pelisalacarta.launcher Envio de correo activado')
            from core import pastebin
            import xbmc
